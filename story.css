@@ -194,7 +194,7 @@ Leaves and sky cover tree background
 
 /*
 garden fence div
-chatgpt fixed my clip path :)
+chatgpt fixed my clip path and then i fixed its result :)
 */
 .fence {
     height: 15vh;
@@ -378,4 +378,44 @@ Peter spins and gets through the fence with a changed z index
   100% {
     bottom: 20%;
   }
+}
+
+/*
+Page 3
+
+peter runs back and forth cus mr mcgregor sees him
+*/
+.peterp3 {
+  position: absolute;
+  bottom: 10vh;
+  left: 60%;
+  width: 120px;
+  z-index: 105;
+  animation: zipBackAndForth 1.5s linear infinite alternate;
+}
+
+@keyframes zipBackAndForth {
+  0% {
+    left: 80%;
+  }
+  100% {
+    left: 15%;
+  }
+}
+
+.shout {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  transform: translateY(-50%) scale(1.8);
+  background-color: #fff;
+  color: #ff0000;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  z-index: 200;
+  height: 6vh;
+  width: 10vw;
+  text-align: center;
+  padding: 10px;
 }
