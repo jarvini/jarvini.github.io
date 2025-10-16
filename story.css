@@ -1,4 +1,3 @@
-
 :root {
     /*variables for z-index*/
     --background: -3;
@@ -8,10 +7,9 @@
     --fore1: 2;
     --fore2: 4;
 
-    /*Trees
-    Set by script
+    /*Tree variables set by script
 
-    widths for all trees*/
+    widths for all treest*/
     --T1W: ;
     --T2W: ;
     --T3W: ;
@@ -22,7 +20,7 @@
     --T8W: ;
     --T9W: ;
 
-    /*distance from left for all trees*/
+    /*location for all trees*/
     --T1D: ;
     --T2D: ;
     --T3D: ;
@@ -56,7 +54,7 @@ body {
 }
 
 /*
-giant forest green div class background for forest scenes
+giant forest green div class background
 because the carrot pointer doesn't work over the body background
 */
 .forest {
@@ -69,6 +67,8 @@ because the carrot pointer doesn't work over the body background
 
 /*
 ground class and ids
+
+2 different grounds for depth
 */
 .ground {
     width: 100vw;
@@ -87,14 +87,6 @@ ground class and ids
     height: 11vw;
     clip-path: polygon(0% 5%, 20% 0%, 40% 17%, 100% 0%, 100% 100%, 0% 100%);
     z-index: var(--back2);
-}
-
-/*sun and position ids for time of day*/
-.sun {
-    height: 10vw;
-    width: 10vw;
-    background-color: rgb(255, 237, 70);
-    clip-path: circle(50% at 50% 50%);
 }
 
 /*
@@ -253,7 +245,7 @@ chatgpt fixed my clip path and then i fixed its result :)
 }
 
 /*
-Text class for text
+Text class for text to appear over leaves
 */
 .text {
     position:absolute;
@@ -418,4 +410,5 @@ peter runs back and forth cus mr mcgregor sees him
   width: 10vw;
   text-align: center;
   padding: 10px;
+
 }
